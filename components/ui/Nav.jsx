@@ -6,13 +6,13 @@ import { usePathname } from "next/navigation";
 const links = [
   { name: "Home", path: "/" },
   { name: "Services", path: "/services" },
-  { name: "Work", path: "/work" },
+  { name: "Resume", path: "/resume" },  // Added Resume
+  { name: "Projects", path: "/projects" },
   { name: "Contact", path: "/contact" },
 ];
 
 const Nav = () => {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <nav className="flex gap-8">
