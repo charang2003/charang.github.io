@@ -8,7 +8,7 @@ import StairTransition from "@/components/ui/StairTransition";
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-  variable: "--font-jetbrains-mono",
+  variable: "--font-jetbrainsMono",
 });
 
 export const metadata = {
