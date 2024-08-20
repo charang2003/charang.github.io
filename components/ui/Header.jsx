@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import Nav from "@/components/ui/Nav";
+import MobileNav from "@/components/ui/MobileNav"; // Add this line
 
 const Header = () => {
   return (
@@ -22,7 +23,9 @@ const Header = () => {
         </div>
 
         {/* Mobile Nav Placeholder */}
-        {/* You can implement your mobile navigation here */}
+        <div className="xl:hidden">
+          <MobileNav />
+        </div>
       </div>
     </header>
   );
