@@ -13,7 +13,15 @@ const Home = () => {
               Hello I'm <br /> <span className="text-accent">Charan G</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">Machine Learning & Prompt Engineering Enthusiast |
-               Crafting Intelligent Systems and Advanced AI Solutions</p>
+               Crafting Intelligent Systems and Advanced AI Solutions
+            </p>
+            {/* button and socials */}
+            <div>
+              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+                <span>Download resume</span>
+                <FiDownload className="text-xl" />
+              </Button>
+            </div>
           </div>
           {/* photo */}
           <div>photo</div>
