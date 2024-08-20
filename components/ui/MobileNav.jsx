@@ -33,7 +33,7 @@ const MobileNav = () => {
   return (
     <Sheet>
         <SheetTrigger className="flex justify-center items-center">
-            <CiMenuFries className="text-[32px] text-accent"   />
+            <CiMenuFries className="text-[32px] text-accent"/>
         </SheetTrigger>
         <SheetContent className="felx flex-col">
             {/* logo */}
@@ -48,13 +48,12 @@ const MobileNav = () => {
             <nav className="flex flex-col justify-center items-center gap-8">
                 {links.map((link, index) => {
                     return (
-                        <Link href={link.path} key={index} className={"text-xl capitalize hover:text-accent transition-all"}>
+                        <Link href={link.path} key={index} className={`${link.path === pathname ? "text-accent border-b-2 border-accent" : ""} text-xl capitalize hover:text-accent transition-all`}>
                             {link.name}
                         </Link>
                     );
-            })}
+                })}
             </nav>
-
         </SheetContent>
     </Sheet>
   );
