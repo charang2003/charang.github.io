@@ -38,3 +38,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 npm i framer-motion
 npm i react-icons
+npm i react-countup
