@@ -2,7 +2,8 @@
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs} from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotJs } from "react-icons/si";
+import { SiNextdotJs } from "react-icons/si";
+import { SiTailwindcss } from 'react-icons/si';
 
 const about = {
     title: "About Me",
